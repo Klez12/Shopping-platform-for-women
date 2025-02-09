@@ -121,8 +121,8 @@ export const products = [{
     category : "Girls",
     subCategory:" Top and bottom",
     sizes: ["6-12M","12-18M","18-24M","24-36M"],
-    Date : 87553432,
-    Bestseller:true,
+    date : 87553432,
+    bestseller:true,
 
 },
 {
@@ -135,8 +135,8 @@ export const products = [{
     category :"Girls",
     subCategory:" Top and bottom",
     sizes: ["4Y","5Y"],
-    Date : 67467789,
-    Bestseller: true,
+    date : 67467789,
+    bestseller: true,
 
 },{
 
@@ -148,8 +148,8 @@ export const products = [{
     category :"Girls",
     subCategory:" Top and bottom",
     sizes:  ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746447,
-    Bestseller: true,
+    date : 45746447,
+    bestseller: true,
 
 },{
 
@@ -161,8 +161,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746440,
-    Bestseller:true,
+    date : 45746440,
+    bestseller:true,
 
 },{
 
@@ -174,8 +174,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746444,
-    Bestseller: true,
+    date : 45746444,
+    bestseller: true,
 
 },{
 
@@ -187,8 +187,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746494,
-    Bestseller:true,
+    date : 45746494,
+    bestseller:true,
 
 },{
 
@@ -200,8 +200,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746494,
-    Bestseller:true,
+    date : 45746494,
+    bestseller:true,
 
 },{
 
@@ -213,8 +213,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746594,
-    Bestseller:true,
+    date : 45746594,
+    bestseller:true,
 
 },{
 
@@ -226,8 +226,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746584,
-    Bestseller:true,
+    date : 45746584,
+    bestseller:true,
 
 },{
 
@@ -239,8 +239,8 @@ export const products = [{
     category :"Girls",
     subCategory:"Top and bottom",
     sizes: ["4Y","5Y","6Y","7Y","8Y"],
-    Date : 45746504,
-    Bestseller: true,
+    date : 45746504,
+    bestseller: true,
 
 },{
 
@@ -252,8 +252,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 8736667,
-    Bestseller:false,
+    date : 8736667,
+    bestseller:false,
 
 },{
 
@@ -265,8 +265,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date :  8736667,
-    Bestseller:false,
+    date :  8736667,
+    bestseller:false,
 
 },{
 
@@ -278,8 +278,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top and bottom",
     sizes:["S","M","L","XL","XXL","3Xl"],
-    Date : 7865212,
-    Bestseller: true,
+    date : 7865212,
+    bestseller: true,
 
 },{
 
@@ -291,8 +291,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top and bottom",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date :  7865202,
-    Bestseller:true,
+    date :  7865202,
+    bestseller:true,
 
 },{
 
@@ -304,8 +304,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 6754382,
-    Bestseller:true,
+    date : 6754382,
+    bestseller:true,
 },{
 
     _id : "aaaap",
@@ -316,8 +316,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 564378,
-    Bestseller: false,
+    date : 564378,
+    bestseller: false,
 
 },{
 
@@ -329,8 +329,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 786544,
-    Bestseller:false,
+    date : 786544,
+    bestseller:false,
 
 },{
 
@@ -342,8 +342,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 786545,
-    Bestseller:false,
+    date : 786545,
+    bestseller:false,
 
 },{
 
@@ -355,8 +355,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 786545,
-    Bestseller:false,
+    date : 786545,
+    bestseller:false,
 
 },{
 
@@ -368,8 +368,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 786545,
-    Bestseller:false,
+    date : 786545,
+    bestseller:false,
 
 
 },{
@@ -382,8 +382,8 @@ export const products = [{
     category :"Women",
     subCategory:"Top ",
     sizes: ["S","M","L","XL","XXL","3Xl"],
-    Date : 786545,
-    Bestseller: true,
+    date : 786545,
+    bestseller: true,
 
 },
 

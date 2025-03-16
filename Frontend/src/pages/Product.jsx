@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ShopContext } from "../context/shopContext";
 import ProductItem from "../components/ProductItem";
 import { assets } from "../assets/assets";
+import RelatedProducts from "../components/RelatedProducts";
 
 const product = () => {
   const { productId } = useParams();
@@ -94,8 +95,9 @@ const product = () => {
         <p> E-commerce is important because it enables businesses to reach a global audience, operate 24/7, reduce operational costs, and gain data-driven insights into customer behavior, ultimately leading to increased efficiency and profitability. </p>
       </div>
      </div>
-{/* display related products------------------------------- */}
+{/* ---------------------display related products------------------------------- */}
 
+<RelatedProducts category={productData.category} subCategory={productData.subCategory}/>
 
   </div> 
 

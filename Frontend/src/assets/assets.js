@@ -96,6 +96,8 @@ import search_icon from './search_icon.png'
 import profile_icon from './profile_icon.png'
 import quality_icon from  './quality_icon.png'
 import support_img from './support_img.png'
+import star_icon from './star_icon.png'
+import star_dull_icon from './star_dull_icon.png'
 
 
 export const assets ={
@@ -112,6 +114,8 @@ export const assets ={
     profile_icon,
     quality_icon,
     support_img,
+    star_icon,
+    star_dull_icon,
 
 }
 

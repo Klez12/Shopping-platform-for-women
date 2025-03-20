@@ -99,7 +99,7 @@ import support_img from './support_img.png'
 import star_icon from './star_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 
-
+//export const assets
 export const assets ={
     bin_icon,
     cart_icon,
@@ -117,7 +117,9 @@ export const assets ={
     star_icon,
     star_dull_icon,
 
-}
+};
+// ye nhi tha
+// export default assets;
 
 export const products = [{
 

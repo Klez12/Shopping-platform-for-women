@@ -65,5 +65,4 @@ const ShopContextProvider = (props) => {
     )
 }
 
-// export default ShopContextProvider;
-export default ShopContext;
+export default ShopContextProvider;

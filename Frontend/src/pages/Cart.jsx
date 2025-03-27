@@ -3,7 +3,7 @@ import { ShopContext } from "../context/ShopContext.jsx";
 import { use } from "react";
 import Title from "../components/Title";
 import { assets } from "../assets/assets";
-import CartTotal from "../components/cartTotal";
+import CartTotal from "../components/CartTotal.jsx";
 
 const Cart = () => {
   const { items, products, currency, cartItems, updateQuantity, navigate } =

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ShopContext } from '../context/shopContext'
+import { ShopContext } from '../context/shopContext.jsx'
 import Title from '../components/Title'
 
 const Orders = () => {

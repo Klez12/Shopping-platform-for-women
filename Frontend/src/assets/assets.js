@@ -98,6 +98,10 @@ import quality_icon from  './quality_icon.png'
 import support_img from './support_img.png'
 import star_icon from './star_icon.png'
 import star_dull_icon from './star_dull_icon.png'
+import stripe_logo from './stripe_logo.png'
+import razorpay_logo from './razorpay_logo.png'
+import about_img from './about_img.png'
+
 
 //export const assets
 export const assets ={
@@ -116,6 +120,9 @@ export const assets ={
     support_img,
     star_icon,
     star_dull_icon,
+    stripe_logo,
+    razorpay_logo,
+    about_img,
 
 };
 // ye nhi tha

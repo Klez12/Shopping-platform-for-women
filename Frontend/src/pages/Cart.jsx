@@ -5,6 +5,7 @@ import Title from "../components/Title";
 import { assets } from "../assets/assets";
 import CartTotal from "../components/CartTotal.jsx";
 
+
 const Cart = () => {
   const { items, products, currency, cartItems, updateQuantity, navigate } =
     useContext(ShopContext);
@@ -12,20 +13,22 @@ const Cart = () => {
   const [cartData, setCartData] = useState([]);
 
   useEffect(() => {
-    const tempData = [];
-    for (const items in cartItems) {
-      for (const item in cartItems[items]) {
-        if (cartItems[items][item] > 0) {
-          tempData.push({
-            _id: items,
-            size: item,
-            quantity: cartItems[items][item],
-          });
+    if (products.length > 0) {
+      const tempData = [];
+      for (const items in cartItems) {
+        for (const item in cartItems[items]) {
+          if (cartItems[items][item] > 0) {
+            tempData.push({
+              _id: items,
+              size: item,
+              quantity: cartItems[items][item],
+            });
+          }
         }
       }
+      setCartData(tempData);
     }
-    setCartData(tempData);
-  }, [cartItems]);
+  }, [cartItems,products]);
 
   return (
     <div className="border-t pt-14">
@@ -53,12 +56,12 @@ const Cart = () => {
                     {productData.name}
                   </p>
                   <div className="flex item-center gap-5 mt-2">
-                    <p>
+                   {/* <p> */}
                       {currency} {productData.price}
                       <p className="px-2 sm:px-3 sm:py-1 border bg-slate-50">
                         {item.size}
                       </p>
-                    </p>
+                    {/* </p> */}
                   </div>
                 </div>
               </div>

@@ -3,16 +3,16 @@ import validator from "validator"
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken";
 
+
 const createToken = (id )=>{
     return jwt.sign({id},process.env.JWT_SECRET)
 }
 
-
-//rout for user login
+//route for user login
 const loginUser = async (req,res)=>{
 try {
     
-   const{email,password} = req.body;
+   const{email, password} = req.body;
 
    const user = await userModel.findOne({email});
 
@@ -21,6 +21,7 @@ try {
    }
 
    const isMatch = await bcrypt.compare(password, user.password);
+
 
    if(isMatch){
       const token = createToken(user._id)
@@ -37,7 +38,7 @@ try {
 }
 
 }
-//rout for user regestration
+//route for user register
 const registerUser = async (req,res) => {
          
      try {
@@ -87,6 +88,24 @@ const registerUser = async (req,res) => {
 
 //rout for admin login 
 const adminLogin = async(req,res)=>{
+
+   try {
+      
+      const {email, password} = req.body
+
+      if (email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD){
+         const token = jwt.sign(email+password, process.env.JWT_SECRET);
+         res.json({success:true, token})
+      } else {
+         res.json({success: false, message : "Invalid Credentials"})
+      }
+
+   } catch (error) {
+      console.log(error);
+        res.json ({success:false, message:error.message})
+   }
+
+
 
 }    
 

@@ -18,3 +18,7 @@ const adminAuth = async (req,res,next) =>{
 
 
 export default adminAuth
+
+
+//email- komal@gmail.com
+//password-qwerty12!@/komal12!@

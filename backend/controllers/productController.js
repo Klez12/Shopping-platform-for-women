@@ -17,10 +17,7 @@ try {
     const image3 =req.files.image3 && req.files.image3[0]
     const image4 =req.files.image4 && req.files.image4[0]
 
-// const image1 = req.files.image1 ? req.files.image1[0] : null;
-// const image2 = req.files.image2 ? req.files.image2[0] : null;
-// const image3 = req.files.image3 ? req.files.image3[0] : null;
-// const image4 = req.files.image4 ? req.files.image4[0] : null;
+
 
     const images = [image1,image2, image3, image4].filter((item)=>item !== undefined)
 
@@ -56,8 +53,7 @@ try {
     console.log(error)
     res.json({success:false, message:error.message})
 
-// console.log("BODY:", req.body);      // this should now show description, name, etc.
-// console.log("FILES:", req.files);    // this should show uploaded images
+   // this should show uploaded images
 
 }
 
